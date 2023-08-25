@@ -12,9 +12,8 @@ export default function Home(){
                     Rent the perfect van to make your perfect road trip.
                 </p>
                 <button>
-                    <Link to="/vans" className="find-van">Find your van</Link>
+                    <Link to="/vans" className="button-link">Find your van</Link>
                 </button>
-                
             </div>
         </section>
     )
