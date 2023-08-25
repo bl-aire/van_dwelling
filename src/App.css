@@ -2,7 +2,7 @@
   display:flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1em 2em;
+  padding: 0.5em 4em;
 }
 
 nav ul {
@@ -30,7 +30,7 @@ nav ul li a, nav a{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2em;
+  padding:  2em;
   color: #ffffff;
 }
 
@@ -40,9 +40,9 @@ nav ul li a, nav a{
 }
 
 .home-text h1{
-  font-size: 42px;
+  font-size: 50px;
   font-weight: 800;
-  line-height: 42px
+  line-height: 52px
 }
 
 .home-text p{
@@ -61,4 +61,51 @@ nav ul li a, nav a{
   font-size: 16px;
   font-weight: 700;
   line-height: 32px;
+  margin: 1em 0 0 0;
+}
+
+.about-image{
+  height: auto;
+  width: 100%;
+}
+
+.about-text_container, .explore-container{
+  padding: 2em 4em;
+  text-align: justify;
+}
+
+.about-text_container h1{
+  color: #161616;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+}
+
+.about-text_container p{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.about-text_container h2{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.about-text_container button{
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #ffffff;
+  padding: 12px 22px 13px 22px;
+  border-radius: 10px;
+  background-color: #161616;
+  border: none;
+}
+
+.explore-container{
+  padding: 2em;
+  border-radius: 5px;
+  background-color: #FFCC8D;
 }

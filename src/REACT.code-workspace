@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../ADVANCED_REACT"
+		},
+		{
+			"path": "../../../THREEJS_JOURNEY"
+		},
+		{
+			"path": "../../../3_JS"
+		}
+	],
+	"settings": {}
+}
