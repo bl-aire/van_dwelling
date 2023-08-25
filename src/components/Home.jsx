@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 export default function Home(){
     return(
         <section className="home-container">
@@ -9,7 +11,10 @@ export default function Home(){
                 <p>
                     Rent the perfect van to make your perfect road trip.
                 </p>
-                <button>Find your van</button>
+                <button>
+                    <Link to="/vans" className="find-van">Find your van</Link>
+                </button>
+                
             </div>
         </section>
     )
