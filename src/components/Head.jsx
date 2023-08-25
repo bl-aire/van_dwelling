@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 export default function Head(){
     return(
-        <div>
+        <header>
             <nav className="head-container">
                 <Link to="/">VAN_DWELLING</Link>
                 <ul>
@@ -14,6 +14,6 @@ export default function Head(){
                     </li>
                 </ul>
             </nav>
-        </div>
+        </header>
     )
 }

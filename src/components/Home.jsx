@@ -1,6 +1,6 @@
 export default function Home(){
     return(
-        <div className="home-container">
+        <section className="home-container">
             <div className="home-text">
                 <h1>You got the travel plans, we got the travel vans.</h1>
                 <p>
@@ -11,6 +11,6 @@ export default function Home(){
                 </p>
                 <button>Find your van</button>
             </div>
-        </div>
+        </section>
     )
 }

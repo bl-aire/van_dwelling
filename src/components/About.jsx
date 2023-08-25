@@ -2,7 +2,7 @@ import home  from "../assets/home.png"
 
 export default function About(){
     return(
-        <div>
+        <section>
             <div>
                 <img src={home} className="about-image"/>
             </div>
@@ -18,7 +18,6 @@ export default function About(){
                     <button>Explore our vans</button>
                 </div>
             </div>
-
-        </div>
+        </section>
     )
 }

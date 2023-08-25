@@ -1,7 +1,7 @@
 export default function Vans(){
     return(
-        <div>
+        <section>
             Vans
-        </div>
+        </section>
     )
 }
