@@ -1,3 +1,5 @@
+/* HEAD */
+
 .head-container{
   display:flex;
   justify-content: space-between;
@@ -20,6 +22,7 @@ nav ul li a, nav a{
   color: #000000;
 }
 
+/* HOME */
 
 .home-container{
   background-image:url("./assets/bg.png") ;
@@ -64,13 +67,15 @@ nav ul li a, nav a{
   margin: 1em 0 0 0;
 }
 
+/* ABOUT */
+
 .about-image{
   height: auto;
   width: 100%;
 }
 
 .about-text_container, .explore-container{
-  padding: 2em 4em;
+  padding: 2em 3em;
   text-align: justify;
 }
 
@@ -84,6 +89,7 @@ nav ul li a, nav a{
 .about-text_container p{
   font-size: 16px;
   font-weight: 500;
+  color: #161616;
   line-height: 22px;
 }
 
@@ -91,6 +97,7 @@ nav ul li a, nav a{
   font-size: 24px;
   font-weight: 700;
   line-height: 30px;
+  color: #161616;
 }
 
 .about-text_container button{
@@ -105,7 +112,18 @@ nav ul li a, nav a{
 }
 
 .explore-container{
-  padding: 2em;
+  padding: 2em 2em 3em;
   border-radius: 5px;
   background-color: #FFCC8D;
+}
+
+/* FOOT */
+
+.foot-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #AAAAAA;
+  background-color:#252525;
+  padding: 0.5em;
 }

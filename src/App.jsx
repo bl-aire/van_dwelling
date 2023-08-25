@@ -4,6 +4,7 @@ import Head from './components/Head'
 import Home from './components/Home'
 import About from './components/About'
 import Vans from './components/Vans'
+import Foot from './components/Foot'
 
 function App() {
   return(
@@ -15,6 +16,7 @@ function App() {
           <Route path="/about" element={<About/>}/>
           <Route path="/vans" element={<Vans/>}/>
         </Routes>
+        <Foot/>
       </BrowserRouter>
     </>
   )
