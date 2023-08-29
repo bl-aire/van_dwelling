@@ -127,7 +127,8 @@ nav ul li a, nav a{
 /* VANS */
 
 .vans-container {
-  padding-inline: 23px
+  padding-inline: 23px;
+  margin:0 0 4em;
 }
 
 .van-list {
@@ -221,5 +222,4 @@ i[class*='van-type-'] {
   color: #AAAAAA;
   background-color:#252525;
   padding: 0.5em;
-  margin: 3em 0 0;
 }
