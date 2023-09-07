@@ -5,7 +5,7 @@ export default function VanDetail() {
 
     const [van, setVan] = React.useState([])
     const params = useParams()
-    // console.log(params)...id:2
+    // console.log(params)...id:2 
 
     React.useEffect(() => {
         fetch(`/api/vans/${params.id}`)
@@ -19,7 +19,7 @@ export default function VanDetail() {
             <div className="van-detail">
                 <img src={van.imageUrl} />
                 <i className={`van-type ${van.type} selected`}>{van.type}</i>
-                <h2>{van.name}</h2>
+                <h3>{van.name}</h3>
                 <p className="van-price"><span>${van.price}</span>/day</p>
                 <p>{van.description}</p>
                 <button className="link-button">Rent this van</button>

@@ -4,7 +4,7 @@ export default function Head(){
     return(
         <header>
             <nav className="head-container">
-                <Link to="/">VAN_DWELLING</Link>
+                <Link to="/" className="van-logo">Van Dwelling</Link>
                 <ul>
                     <li>
                         <Link to="/about">About</Link>

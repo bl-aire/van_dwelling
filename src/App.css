@@ -7,6 +7,11 @@
   padding: 0.5em 2em;
 }
 
+/*.van-logo{
+  font-family: 'GFS Didot', serif;
+  font-size: 1.5em;
+}*/
+
 nav ul {
   display: flex;
   
@@ -227,7 +232,7 @@ i[class*='van-type-'] {
 /* VAN_DETAIL */
 
 .van-detail-container {
-  padding: 0 27px 27px;
+  padding: 0 40px 40px;
 }
 
 .van-detail-container .back-button {
@@ -260,9 +265,9 @@ i[class*='van-type-'] {
   margin-block: 47px;
 }
 
-.van-detail h2 {
+.van-detail h3 {
   font-size: 2rem;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .van-detail > i {
