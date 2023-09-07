@@ -12,6 +12,9 @@ export default function Head(){
                     <li>
                         <Link to="/vans">Vans</Link>
                     </li>
+                    <li>
+                        <Link to="/host">Host</Link>
+                    </li>
                 </ul>
             </nav>
         </header>
